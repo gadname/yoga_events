@@ -1,24 +1,51 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+- ヨガ予約管理システムの開発
 
-Things you may want to cover:
+## 画面遷移図
+- https://www.figma.com/file/Mt5E8RM2O7Vo9Uan1kZpzo/%E7%84%A1%E9%A1%8C?type=design&node-id=0%3A1&mode=design&t=TpxVdMjVocDux4GP-1
+- 雑すぎてすみません笑
 
-* Ruby version
+## ER図
+- https://dbdiagram.io/d/64e313b902bd1c4a5e1ba514
 
-* System dependencies
+## 主な機能
+- ログイン機能
+- 新規登録機能
+- イベント予約機能
+- イベント一覧(確認)機能
+- 管理者ログイン機能
+- ユーザ管理機能(CRUD)
+- イベント管理機能(CRUD)
 
-* Configuration
+## 開発Tips
+### ブランチの切り方
+ブランチの命名規則は下記に基づいてください
+```
+feature/issue番号/タスク名
 
-* Database creation
+ex. feature/133/create-login-form
+```
+コンフリクトを防ぐために、作業始める前は、**git pull origin main** を行った後に、**git merge 作業ブランチ**で他開発者の作業を取り込むようにしてください。
 
-* Database initialization
+また、git push 直前にも上記の作業を行ってください。
 
-* How to run the test suite
+### ビューについて
+一旦見た目はあまり気にしなくていいです。
+機能が全て実装されたらテンプレート用意するので、そちらを反映する方針でいこうと思います！
 
-* Services (job queues, cache servers, search engines, etc.)
+### PRの作り方
+テンプレを使ってください！レビュワーの部分を作間に設定、PR作成後該当のリンクをチャンネルに貼ってください！
+```
+## 概要
+対応Issue (URL)
 
-* Deployment instructions
+## 作業内容
+作業内容
 
-* ...
+## 補足
+```
+
+## その他
+どうなるかわかりませんが、協力して頑張りましょ〜！！！笑
