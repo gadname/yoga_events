@@ -67,5 +67,4 @@ push前にrubocop(gem インストール済み)を使ってlintチェックを�
 - https://abillyz.com/moco/studies/551
 
 
-
 どうなるかわかりませんが、協力して頑張りましょ〜！！！笑
