@@ -10,6 +10,13 @@
 ## ER図
 - https://dbdiagram.io/d/64e313b902bd1c4a5e1ba514
 
+
+## 環境構築
+- git clone git@github.com:k-suke39/yoga_events.git
+- bundle install
+- rails db:create
+- rails s
+
 ## 主な機能
 - ログイン機能
 - 新規登録機能
