@@ -13,6 +13,7 @@
 
 ## 環境構築
 - git clone git@github.com:k-suke39/yoga_events.git
+- cd リポジトリ名
 - bundle install
 - rails db:create
 - rails s
