@@ -43,6 +43,9 @@ ex. feature/133/create-login-form
 一旦見た目はあまり気にしなくていいです。
 機能が全て実装されたらテンプレート用意するので、そちらを反映する方針でいこうと思います！
 
+### lint
+push前にrubocop(gem インストール済み)を使ってlintチェックをするようにしてください
+
 ### PRの作り方
 テンプレを使ってください！レビュワーの部分を作間に設定、PR作成後該当のリンクをチャンネルに貼ってください！
 ```
@@ -56,4 +59,13 @@ ex. feature/133/create-login-form
 ```
 
 ## その他
+1. sorceryに関してはテーブルを定義しているので、インストールは不要です。管理者画面担当の方は、roleのカラムを追加する必要があると思ってます。バリデーション関連も設定する必要あると思うので、そこらへんはコンフリクトを経験しながらやっていきましょう！
+2. カレンダーの一覧に関しては、simple-calendarというgemを使って実装しようと思います。gemは入ってるのでこちらもインストール不要です！
+- https://github.com/excid3/simple_calendar
+- https://qiita.com/yamaday0u/items/5fa2ab42bdc685711709
+- https://zenn.dev/yuma_rails/articles/00b6ea10b87ca5
+- https://abillyz.com/moco/studies/551
+
+
+
 どうなるかわかりませんが、協力して頑張りましょ〜！！！笑
