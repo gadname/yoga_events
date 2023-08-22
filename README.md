@@ -16,6 +16,7 @@
 - cd リポジトリ名
 - bundle install
 - rails db:create
+- rails db:migrate
 - rails s
 
 ## 主な機能
